@@ -1,0 +1,9 @@
+services:
+  subconverter:
+    image: tindy2013/subconverter:latest
+    container_name: subconverter
+    ports:
+      - "127.0.0.1:25500:25500"
+    restart: unless-stopped
+    volumes:
+      - ./RemoteDev_Config.ini:/base/pref.ini
