@@ -5,6 +5,7 @@
 ### 基础信息
 - **职业**: 全职远程开发者
 - **使用场景**: 开发环境 + 日常上网
+- **主订阅**: LinkA 机场
 
 ### 常用服务
 | 类型 | 服务 |
@@ -44,12 +45,6 @@ AI 服务 🤖 → 🇺🇲 美国节点 / 🇭🇰 香港节点
 ### 生成 Clash 配置
 ```bash
 curl -s "http://127.0.0.1:25500/sub?target=clash&url=你的订阅链接&upload=false&config=配置URL" > clash.yml
-```
-
-### 本地订阅转换
-```bash
-# 使用自定义配置
-curl -s "http://127.0.0.1:25500/sub?target=clash&url=你的订阅链接&upload=false&config=https://raw.githubusercontent.com/你的用户名/acl4ssr/master/RemoteDev_Config.ini" > clash.yml
 ```
 
 ### Docker 服务
