@@ -44,7 +44,7 @@ AI 服务 🤖 → 🇺🇲 美国节点 / 🇭🇰 香港节点
 
 ### 生成 Clash 配置
 ```bash
-curl -s "https://sub.xjz.im/sub?target=clash&url=https%3A%2F%2Flinka.lmscunb.cc%3A2087%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3Da8f7428d2e0163fab8c1c9d32dcb4876&filename=LinkA-ACL4SSR&config=https%3A%2F%2Fraw.githubusercontent.com%2FXXXym%2Facl4ssr%2Frefs%2Fheads%2Fmain%2FRemoteDev_Config.ini&emoji=true&scv=true&fdn=false&new_name=true" > clash.yml
+curl -s "https://sub.xjz.im/sub?target=clash&url=https%3A%2F%2Flinka.lmscunb.cc%3A2087%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%xxxxx&filename=LinkA-ACL4SSR&config=https%3A%2F%2Fraw.githubusercontent.com%2FXXXym%2Facl4ssr%2Frefs%2Fheads%2Fmain%2FRemoteDev_Config.ini&emoji=true&scv=true&fdn=false&new_name=true" > clash.yml
 ```
 
 ### Docker 服务
